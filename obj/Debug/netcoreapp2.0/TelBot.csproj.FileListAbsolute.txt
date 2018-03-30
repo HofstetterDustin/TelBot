@@ -1,0 +1,11 @@
+C:\source\codeworks\CSharp\TelBot\bin\Debug\netcoreapp2.0\TelBot.deps.json
+C:\source\codeworks\CSharp\TelBot\bin\Debug\netcoreapp2.0\TelBot.runtimeconfig.json
+C:\source\codeworks\CSharp\TelBot\bin\Debug\netcoreapp2.0\TelBot.runtimeconfig.dev.json
+C:\source\codeworks\CSharp\TelBot\bin\Debug\netcoreapp2.0\TelBot.dll
+C:\source\codeworks\CSharp\TelBot\bin\Debug\netcoreapp2.0\TelBot.pdb
+C:\source\codeworks\CSharp\TelBot\obj\Debug\netcoreapp2.0\TelBot.csprojResolveAssemblyReference.cache
+C:\source\codeworks\CSharp\TelBot\obj\Debug\netcoreapp2.0\TelBot.csproj.CoreCompileInputs.cache
+C:\source\codeworks\CSharp\TelBot\obj\Debug\netcoreapp2.0\TelBot.AssemblyInfoInputs.cache
+C:\source\codeworks\CSharp\TelBot\obj\Debug\netcoreapp2.0\TelBot.AssemblyInfo.cs
+C:\source\codeworks\CSharp\TelBot\obj\Debug\netcoreapp2.0\TelBot.dll
+C:\source\codeworks\CSharp\TelBot\obj\Debug\netcoreapp2.0\TelBot.pdb

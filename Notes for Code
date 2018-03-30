@@ -1,0 +1,81 @@
+Questions-----------------------------------------------------------
+        // Room1 Room1 = new Room1("Entrance Hall","context");
+        // Question currentQuestion = game.init ();
+        // Console.WriteLine (currentQuestion.Query);
+        // currentQuestion = currentQuestion.Directions["next"];
+        // System.Console.WriteLine (currentQuestion.Query);
+        // currentQuestion = currentQuestion.Directions["next"];
+        // System.Console.WriteLine (currentQuestion.Query);
+        // currentQuestion = currentQuestion.Directions["previous"];
+        // System.Console.WriteLine (currentQuestion.Query);
+
+Direction movements----------------------------------------------------
+ // for( ; ; )
+            // {
+            //     Describe(currentRoom);
+            //     System.Console.WriteLine( ">" );
+            //     string command = Console.ReadLine();
+            //     Direction direction;
+            //     if(Enum.TryParse<Direction>(command, out direction))
+            //     {
+            //         Room destination;
+            //         if(currentRoom.exit.TryGetValue(direction, out destination ))
+            //         {
+            //             currentRoom = destination;
+            //         }
+            //         else
+            //         {
+            //             Console.WriteLine("Not allowed to go there");
+            //         }
+            //     }
+            //     else if (command == "Quit")
+            //     {
+            //         return;
+            //     }
+            //     else
+            //     {
+            //         Console.WriteLine("???");
+
+            //     }        
+
+Question set up---------------------------------------------------
+// public Question init()
+// {
+//   Question q1 = new Question("What is your name?");
+//   Question q2 = new Question("What is your Quest?");
+//   Question q3 = new Question("What is your favorite Color?");
+//   Question q4 = new Question("What is the air speed velocity of an unlaiden swallow?");
+
+//   q1.Directions.Add("next", q2);
+//   q2.Directions.Add("previous", q1);
+//   q2.Directions.Add("next", q3);
+//   q3.Directions.Add("previous", q2);
+//   q3.Directions.Add("next", q4);
+//   q4.Directions.Add("previous", q3);
+
+//     return q1;
+// }   
+
+  if( _currentRoom.Exits) has direction 
+                            set _currentRoom to _currentRoom.Exits[direction]
+                            
+// //Unlock Door
+//             Console.WriteLine(game._currentUser.Name + ": Enter key code to open door.");
+//             String doorPasscode = Console.ReadLine();
+//             int attemps = 0;
+//             while (doorPasscode != "3" && attemps < 5)
+//             {
+//                 Console.WriteLine("Replace with KeyPad Description");
+//                 Console.WriteLine("Key Pad Options: ");
+//                 attemps++;
+//                 doorPasscode = Console.ReadLine();
+//             }
+//             if (attemps > 4)
+//             {
+//                 System.Console.WriteLine("The guards are alerted and you were shot game over");
+//                 return;
+//             }
+//             Console.Clear();
+//             System.Console.WriteLine("The door swings open and you enter a lobby");
+            
+
