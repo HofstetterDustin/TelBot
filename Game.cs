@@ -117,7 +117,7 @@ namespace TelBot.Models
 
             stairWell.Exits.Add("east", secondHall);
             stairWell.Exits.Add("west", hallway);
-            stairWell.Item.Add("Beer_Bros_app", _currentRoom);
+            stairWell.Item.Add("Beer_Bros_app", item._currentRoom);
 
             // secondHall.Exits.Add(Directions.West1, office1);
             // secondHall.Exits.Add(Directions.West2, office2);
@@ -125,7 +125,7 @@ namespace TelBot.Models
             // secondHall.Exits.Add(Directions.East2, office6);
             //8 offices, 1 closet, 1 files room to be added.
 
-            secondHall.Item.Add("backpack", _currentUser)
+            
         
                 _currentRoom = outside;
         }

@@ -13,11 +13,7 @@ namespace TelBot
             while (playing)     //game.play loop
             game.ShowRoomContext();
 
-
-            
-
 //Showing the Lobby
-
             System.Console.WriteLine("Ready?");
             {
                 System.Console.WriteLine("What would you like to do?");
