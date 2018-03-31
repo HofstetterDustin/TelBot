@@ -7,12 +7,11 @@ namespace TelBot.Models
     {
         public string Name { get; set; }
         
-        public List<Items> Backpack = new List<Items>();
+        public List<Item> Backpack = new List<Item>();
 
         public CurrentUser(string name)
         {
             Name = name;
-
         }
     }
 }

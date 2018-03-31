@@ -8,14 +8,16 @@ namespace TelBot.Models
     {
         public String Title { get; set; }
         public String Context { get; set; }
-        public Items Item { get; set; }
+        public List<Item> Items { get; set; } = new List<Item>();
         public Dictionary<string, Room> Exits = new Dictionary<string, Room>();
 
+        public void ShowContext()
+        {
+            System.Console.WriteLine(Title);
+            System.Console.WriteLine(Context);
+            System.Console.WriteLine("Exits:");
+            System.Console.WriteLine(String.Join(", ", Exits.Keys));
 
-        // public Room(string title, string context, string )
-        // {
-        //     Title = title;
-        //     Context = context;
-        // }
+        }
     }
-}
+};
